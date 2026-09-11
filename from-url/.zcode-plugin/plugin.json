@@ -4,7 +4,7 @@
   "description": "skills + commands + MCP + hooks",
   "author": { "name": "Your Name", "email": "you@example.com", "url": "https://example.com" },
   "homepage": "https://example.com/ios-simulator",
-  "repository": "https://github.com/your-team/ios-simulator",
+  "repository": "https://github.com/chao-dev-ai/zcodeplugin/tree/main/from-url",
   "license": "MIT",
   "keywords": ["ios", "simulator", "mobile"],
   "commands": "commands",

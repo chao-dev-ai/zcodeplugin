@@ -28,7 +28,7 @@
     },
     {
       "name": "from-url",
-      "source": { "source": "url", "url": "https://example.com/plugin-manifest.json", "headers": { "Authorization": "Bearer xxx" } }
+      "source": { "source": "url", "url": "https://github.com/chao-dev-ai/zcodeplugin/blob/main/from-url/.zcode-plugin/plugin.json", "headers": { "Authorization": "Bearer xxx" } }
     },
     {
       "name": "from-npm",
