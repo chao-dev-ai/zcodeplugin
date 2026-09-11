@@ -1,0 +1,30 @@
+{
+  "name": "plugin-test",
+  "version": "1.2.0",
+  "description": "skills + commands + MCP + hooks",
+  "author": { "name": "Your Name", "email": "you@example.com", "url": "https://example.com" },
+  "homepage": "https://example.com/ios-simulator",
+  "repository": "https://github.com/your-team/ios-simulator",
+  "license": "MIT",
+  "keywords": ["ios", "simulator", "mobile"],
+  "commands": "commands",
+  "skills": ["test1", "extra-test1"],
+  "agents": "agents",
+  "hooks": "hooks/hooks.json",
+  "mcpServers": ".mcp.json",
+  "dependencies": ["skill-creator@zcode-plugins-official"],
+  "userConfig": {
+    "api_key": {
+      "title": "API key",
+      "description": "Used to access a third-party service",
+      "type": "string",
+      "required": true,
+      "sensitive": true
+    },
+    "default_device": { "title": "Default device", "type": "string", "default": "iPhone 16" },
+    "max_retries": { "type": "number", "default": 3 },
+    "verbose": { "type": "boolean", "default": false },
+    "workspace_dir": { "type": "directory" },
+    "config_file": { "type": "file" }
+  }
+}
