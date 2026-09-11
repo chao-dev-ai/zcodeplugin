@@ -15,8 +15,8 @@
     },
     {
       "name": "from-github",
-      "source": { "source": "github", "repo": "your-team/another", "path": "plugins/x", "ref": "main" },
-      "dependencies": ["hello-world", "skill-creator@zcode-plugins-official"]
+      "source": { "source": "github", "repo": "chao-dev-ai/zcodeplugin", "path": "from-url", "ref": "main" },
+      "dependencies": []
     },
     {
       "name": "from-git",
