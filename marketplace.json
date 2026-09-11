@@ -1,0 +1,38 @@
+{
+  "name": "my-market-demo",
+  "description": "Internal team plugin marketplace",
+  "pluginRoot": "plugins",
+  "allowCrossMarketplaceDependenciesOn": ["zcode-plugins-official"],
+  "plugins": [
+    {
+      "name": "hello-world",
+      "source": "./hello-world",
+      "description": "A greeting plugin",
+      "version": "0.1.0",
+      "category": "demo",
+      "tags": ["starter", "demo"],
+      "strict": true
+    },
+    {
+      "name": "from-github",
+      "source": { "source": "github", "repo": "your-team/another", "path": "plugins/x", "ref": "main" },
+      "dependencies": ["hello-world", "skill-creator@zcode-plugins-official"]
+    },
+    {
+      "name": "from-git",
+      "source": { "source": "git", "url": "https://git.example.com/x.git", "path": "sub", "ref": "v1.0" }
+    },
+    {
+      "name": "from-dir",
+      "source": { "source": "directory", "path": "/abs/path/to/plugin" }
+    },
+    {
+      "name": "from-url",
+      "source": { "source": "url", "url": "https://example.com/plugin-manifest.json", "headers": { "Authorization": "Bearer xxx" } }
+    },
+    {
+      "name": "from-npm",
+      "source": { "source": "npm", "package": "@scope/plugin" }
+    }
+  ]
+}
