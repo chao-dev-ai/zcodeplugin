@@ -20,7 +20,7 @@
     },
     {
       "name": "from-git",
-      "source": { "source": "git", "url": "https://git.example.com/x.git", "path": "sub", "ref": "v1.0" }
+      "source": { "source": "git", "url": "http://127.0.0.1:18080/download/plugin-test-01", "path": "sk01", "ref": "v1.0" }
     },
     {
       "name": "from-dir",
