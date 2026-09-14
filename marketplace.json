@@ -15,7 +15,7 @@
     },
     {
       "name": "from-github",
-      "source": { "source": "github", "repo": "chao-dev-ai/zcodeplugin", "path": "from-url", "ref": "main" },
+      "source": { "source": "github", "repo": "chao-dev-ai/zcodeplugin", "path": "from-url1", "ref": "main" },
       "dependencies": []
     },
     {
