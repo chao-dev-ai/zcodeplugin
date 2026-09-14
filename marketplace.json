@@ -33,6 +33,13 @@
     {
       "name": "from-npm",
       "source": { "source": "npm", "package": "@scope/plugin" }
+    },
+    {
+      "name": "test-hello",
+      "description": "hello world",
+      "version": "1.0.0",
+      "category": "demo",
+      "source": { "source": "url", "url": "http://127.0.0.1:18080/plugin-manifest.json"}
     }
   ]
 }
